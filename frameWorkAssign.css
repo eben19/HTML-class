@@ -1,0 +1,213 @@
+.sub-head{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(185, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #484848;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 50px;
+}
+
+.pro{
+    font-size: 40px;
+}
+
+.shop{
+    font-size: 20px;
+}
+
+.order{
+    width: 93%;
+    height: 80vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxes{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxs{
+    height: 27%;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #484848;
+    margin-top: 10px;
+}
+
+.big-box{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big{
+    width: 87%;
+    height: 55%;
+    border-radius: 15px;
+    background-color: #484848;
+}
+
+.info{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: cente ;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #484848;
+    margin-top: -10px;
+    line-height: 30px;
+}
+
+.ban{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.rp{
+    font-size: 18px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.starr{
+    margin-right: 5px;
+}
+
+.star{
+    width: 10px;
+    height: 10px;
+}
+
+.star-rate{
+    font-size: 11px;
+}
+
+.pls{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.order-cart{
+    display: flex;
+}
+
+
+.jum{
+    width: 115px;
+    height: 26px;
+    background-color: white;
+    border: solid 1px #484848;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+
+}
+
+.arr{
+    width: 7px;
+    height: 7px;
+}
+
+.tam{
+    width: 115px;
+    height: 26px;
+    background-color:  #7c7979;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border:  solid 1px #7c7979;
+}
+
+.cart-img{
+    width: 12px;
+    height: 12px;
+}
+
+.btn{
+    width: 105px;
+    height: 30px;
+    background-color: white;
+    border: solid 1px #484848;
+    border-radius: 5px;
+    color: #484848;
+}
+
+hr{
+    width: 82%;
+    color: #484848;
+}
+
+.des{
+    width: 100%;
+    height: 40vh;
+    color: #484848;
+    margin-bottom: 10px;
+}
+
+.three{
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+}
+
+.three h5{
+    font-size: 17px;
+}
+
+.pros{
+    width: 100%;
+    height: 90%;
+    background-color: #ece9f3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pro-des{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pro-des h5{
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pro-des p{
+    font-size: 17px;
+}

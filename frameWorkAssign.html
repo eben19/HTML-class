@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>delish food</title>
+
+        <link rel="stylesheet" href="./frameWorkAssign.css"/>
+
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+
+            .header{
+                width: 100%;
+                height: 75px;
+                background-color: #ece9f3;
+                display: flex;
+                justify-content: center;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+
+            .head{
+                background-color: re;
+                width: 90%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .logo{
+                background-color: whit;
+                height: 60%;
+                width: 18%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .box{
+                width: 30%;
+                height: 50%;
+                border: solid 2px #484848;
+                border-radius: 7px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .line{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: cente;
+                flex-direction: column;
+                width: 20px;
+                height: 80%;
+                line-height: 10px;
+            }
+
+            .lines{
+                border: solid 3px #484848;
+                width: 100%;
+                border-bottom: 10px;
+                font-weight: bold;
+            }
+
+            .menu{
+                font-size: 12px;
+                color: #484848;
+                font-weight: bold;
+            }
+
+            .name{
+                font-size: 25px;
+                font-weight: bold;
+                color: #484848;
+            }
+
+            .search{
+                width: 45%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .search1{
+                border: solid 2px #484848;
+                width: 20%;
+                height: 70%;
+                border-radius: 30px 0 0 30px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .cate{
+                font-size: 12px;
+                color: #484848;
+            }
+
+            .search2{
+                border: solid 2px #484848;
+                width: 80%;
+                height: 70%;
+                border-radius: 0 30px 30px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: transparent;
+            }
+
+            .inp{
+                height: 100%;
+                width: 85%;
+                background: transparent;
+                border: none;
+                outline: none;
+                font-size: 20px;
+            }
+
+            .cart{
+                width: 8%;
+                height: 80%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: #484848;
+            }
+
+            .arrow-down{
+                width: 10px;
+                height: 10px;
+            }
+
+            .srch{
+                width: 22px;
+                height: 22px;
+                margin-right: 15px;
+            }
+
+            .cart1{
+                width: 25px;
+                height: 25px;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="head">
+                <div class="logo">
+                    <div class="box">
+                        <div class="line">
+                            <div class="lines"></div>
+                            <div class="lines"></div>
+                            <div class="lines"></div>
+                        </div>
+                        <div class="menu">Menu</div>
+                    </div>
+                    <div class="name">Delish Food</div>
+                    </div>
+                <div class="search">
+                    <div class="search1">  
+                        <div class="cate">Category</div>
+                        <img class="arrow-down" src="./Images/arrow-down.png" alt="eben"/>
+                    </div>
+                    <div class="search2">
+                        <input class="inp" placeholder=""/>
+                        <img class="srch" src="./Images/search.png" alt="eben"/>
+                </div>
+                </div>
+                <div class="cart">
+                    <img class="cart1" src="./Images/add-to-cart.png" alt="eben"/>
+                <div class="rp">3 items</div>
+                </div>
+            </div>
+                
+            </div>
+
+        </div>
+
+        <div class="sub-head">
+            <h2 class="pro">Product Details</h2>
+            <h4 class="shop">Shop/ Category/ Banana Chips Rice Brown Chocolate</h4>
+        </div>
+
+        <div class="order">
+            <div class="boxes">
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+                <div class="boxs"></div>
+            </div>
+            <div class="big-box">
+                <div class="big"></div>
+            </div>
+            <div class="info">
+                <h3 class="ban">Banana Chips Rose Brown <br> Chocolate</h3>
+                <h4 class="rp">Rp 15.000</h4>
+                <hr>
+                <div class="stars">
+                   <div class="starr"> <img class="star" src="./Images/star.png"/>
+                    <img class="star" src="./Images/star.png"/>
+                    <img class="star" src="./Images/star.png"/>
+                    <img class="star" src="./Images/star.png"/>
+                    <img class="star" src="./Images/star-white.png"/></div>
+                    <div><h6 class="star-rate">{Star Ratings}</h6></div>
+                </div>
+
+                <div style="margin-top: 10px; margin-bottom: 10px;">
+                <h5 class="pls">Quantity - 200 stacked pieces</h5>
+                <h5 class="pls">Please, check your order carefully.</h5>
+            </div>
+
+                <div class="order-cart">
+                    <div class="jum">
+                        <h6>Jumaih</h6>
+                        <div class="arrows">
+                            <img class="arr" src="./Images/left-arrow.png" />
+                            <h6 class="tamb">1</h6>
+                            <img class="arr" src="./Images/next.png" />
+                        </div>
+                    </div>
+                    <div class="tam">
+                        <h6 class="tamb">Tambahkan</h6>
+                        <img class="cart-img" src="./Images/add-to-cart.png" />
+                    </div>
+                </div>
+
+                <h5 class="pls" style="margin-top: 10px; margin-bottom: 10px;">The maximum order is 100</h5>
+
+                <div class="btns">
+                    <button class="btn">Contact Us</button>
+                    <button class="btn">Chat Us</button>
+                </div>
+
+                <div style="margin-top: 13px;">
+                    <h5 class="pls">Category: Keripik</h5>
+                <h5 class="pls">Tag: Comitan</h5>
+            </div>
+                
+
+            </div>
+        </div>
+
+        <div class="des">
+        
+            <div class="three">
+                <h5 class="in" style="border-bottom: solid 2px #484848;">Description</h5>
+                <h5 class="in">Information</h5>
+                <h5 class="in">Testimonies</h5>
+            </div>
+
+            <div class="pros">
+                <div class="pro-des">
+                    <h5>Product Description</h5>
+                    <p>
+                        I am a calm and patience person, as little experiences over the years has 
+                        shaped my perspective about situations. I will be honored to be considered 
+                        for this huge oppourtunity. Thank you in anticipation.
+                        I am a calm and patience person, as little experiences over the years has 
+                        shaped my perspective about situations. I will be honored to be considered 
+                        for this huge oppourtunity. 
+                        I am a calm and patience person, as little experiences over the years has 
+                        shaped my perspective about situations. I will be honored to be considered 
+                        for this huge oppourtunity.
+                        I am a calm and patience person, as little experiences over the years has 
+                        shaped my perspective about situations. I will be honored to be considered 
+                        for this huge oppourtunity.
+                        I am a calm and patience person, as little experiences over the years has 
+                        shaped my perspective about situations. I will be honored to be considered 
+                        for this huge oppourtunity.
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+
+        
+    </body>
+</html>
